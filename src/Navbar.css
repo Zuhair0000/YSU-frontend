@@ -1,0 +1,22 @@
+.navbar {
+  background-color: #5174b9;
+  padding: 12px 24px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  height: 40px;
+  width: 40px;
+  margin-right: 12px;
+}
+
+.navbar-title {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+}

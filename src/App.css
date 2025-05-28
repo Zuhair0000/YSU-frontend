@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background-color: #f3f4f8;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-box {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.ask-button {
+  background-color: #5174b9;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ask-button:hover {
+  background-color: #3f5f98;
+}
+
+.error-msg {
+  margin-top: 15px;
+  color: #d9534f;
+  font-weight: 500;
+}
+
+.answer-box {
+  margin-top: 25px;
+  padding: 20px;
+  border-left: 5px solid #5174b9;
+  background-color: #f8f9fc;
+  border-radius: 6px;
+}
+
+.answer-box h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.answer-box p {
+  white-space: pre-wrap;
+  color: #444;
+  line-height: 1.5;
+}
